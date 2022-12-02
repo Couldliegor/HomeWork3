@@ -19,8 +19,16 @@ public class Main {
         var paperCountPerStudent = 480 / wholeCountOfStudents;
         System.out.println("На каждого ученика рассчитано " + paperCountPerStudent + " листов бумаги");
         //программа компилируется !
-
+        System.out.println();
         //задание 4
+            int machinePer20Minutes = 16 * 20;
+                System.out.println("За 20 минут машина произвела " +  machinePer20Minutes + " Штук бутылок");
+            int machineEfficiencyPerDay = (1440 / 2) * 16; //1440 - количество минут в дне
+                System.out.println("За день машина произвела " +  machineEfficiencyPerDay + " Штук бутылок");
+            int machineEfficiencyPerThreeDays = machineEfficiencyPerDay * 3;
+                System.out.println("За три дня машина произвела " +  machineEfficiencyPerThreeDays + " Штук бутылок");
+            int machineEfficiencyPerMonth = machineEfficiencyPerDay * 30;//если в месяце 30 дней...
+                System.out.println("За месяц машина произвела " + machineEfficiencyPerMonth + " Штук бутылок");
 
     }
 }
