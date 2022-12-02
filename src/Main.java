@@ -66,6 +66,22 @@ public class Main {
             System.out.println("Need to lose 7kilos. In the worst way, if we lose 250 grams per day, the process will take " + inLessEffectivity + " days. Else, in the middle way (375 grams per day), it will take " + inMiddleWay + " days. But in the most effective way (500 grams per day), it will take " + theBestWay + " days!");
         //Successfully compiled!
         //next task !))))
+        // need some space
+            System.out.println();
+        //Task 8
+        int mashaSalaryBefore = 67760;
+            int mashaDifference = mashaSalaryBefore / 100 * 10;
+                int mashaSalaryAfter = mashaSalaryBefore + mashaDifference;
+            System.out.println("Masha is getting now " + mashaSalaryAfter + " Rubles. Year salary have grown for " + mashaDifference + " rubles.");
+        int denisSalaryBefore = 83690;
+            int denisDifference = denisSalaryBefore / 100 * 10;
+                int denisSalaryAfter = denisDifference + denisSalaryBefore;
+            System.out.println("Denis is getting now " + denisSalaryAfter + " Rubles. Year salary have grown for " + denisDifference + " rubles.");
+        int kristineSalaryBefore = 76230;
+            int kristineDifference = kristineSalaryBefore / 100 * 10;
+                int kristineSalaryAfter = kristineSalaryBefore + kristineDifference;
+            System.out.println("Kristine is getting now " + kristineSalaryAfter + " Rubles. Year salary have grown for " + kristineDifference + " rubles.");
+        //compiled great, that's all!
 
     }
 }
