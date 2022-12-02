@@ -51,5 +51,21 @@ public class Main {
             float generalInGramms = bananasFive + milkThoHundred + iceCreamTwoBricks + fourRawEggs;
             float generalInKilos = generalInGramms / 1000;
             System.out.println("The whole recipe is " + generalInGramms + " in gramms, so " + generalInKilos + " in Kilos!");
+
+        // Success !!
+        // we need a little space down here :)
+        System.out.println();
+        // now the seven (7) one
+        int weightNeedToWaste = 7000;
+        int lessEffectiveMethodPerDay = 250;
+        int inLessEffectivity = weightNeedToWaste / lessEffectiveMethodPerDay;
+        int EffectiveMethodPerDay = 500;
+        int theBestWay = weightNeedToWaste / EffectiveMethodPerDay;
+        int middleCountOfLosingWeightPerDay = 375;
+        int inMiddleWay = weightNeedToWaste / middleCountOfLosingWeightPerDay;
+            System.out.println("Need to lose 7kilos. In the worst way, if we lose 250 grams per day, the process will take " + inLessEffectivity + " days. Else, in the middle way (375 grams per day), it will take " + inMiddleWay + " days. But in the most effective way (500 grams per day), it will take " + theBestWay + " days!");
+        //Successfully compiled!
+        //next task !))))
+
     }
 }
