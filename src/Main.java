@@ -29,6 +29,18 @@ public class Main {
                 System.out.println("За три дня машина произвела " +  machineEfficiencyPerThreeDays + " Штук бутылок");
             int machineEfficiencyPerMonth = machineEfficiencyPerDay * 30;//если в месяце 30 дней...
                 System.out.println("За месяц машина произвела " + machineEfficiencyPerMonth + " Штук бутылок");
-
+       //Небольшой оступ для удобства  ))
+        System.out.println();
+        //Задание 5
+        int countOfColours = 120;
+        int whiteJars = 2;
+        int brownJars = 4;
+        int generalJarsPerClass = whiteJars + brownJars;
+            int coloursInGeneral = countOfColours / generalJarsPerClass;//num of classes
+            whiteJars = whiteJars * coloursInGeneral;
+            brownJars = brownJars * coloursInGeneral;
+                System.out.println("In school, where are " + coloursInGeneral + " classes, need " + whiteJars + "jars of white color, and " + brownJars +  "jars of brown colour. ");
+        //compiled successfully
+            //отступ для удобства
     }
 }
