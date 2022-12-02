@@ -41,6 +41,15 @@ public class Main {
             brownJars = brownJars * coloursInGeneral;
                 System.out.println("In school, where are " + coloursInGeneral + " classes, need " + whiteJars + "jars of white color, and " + brownJars +  "jars of brown colour. ");
         //compiled successfully
-            //отступ для удобства
+            //отступ для удобства))
+        System.out.println();
+        //Задача 6
+        int bananasFive = 5 * 80;
+        int milkThoHundred = 105 * 2;
+        int iceCreamTwoBricks = 2 * 100;
+        int fourRawEggs = 4 * 70;
+            float generalInGramms = bananasFive + milkThoHundred + iceCreamTwoBricks + fourRawEggs;
+            float generalInKilos = generalInGramms / 1000;
+            System.out.println("The whole recipe is " + generalInGramms + " in gramms, so " + generalInKilos + " in Kilos!");
     }
 }
